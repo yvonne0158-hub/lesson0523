@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "lesson0523",
+    "lesson1",
+]
+
+[[package]]
+name = "lesson0523"
+version = "0.1.0"
+source = { virtual = "." }
+
+[[package]]
+name = "lesson1"
+version = "0.1.0"
+source = { virtual = "lesson1" }
